@@ -1,0 +1,64 @@
+body {
+    color: rgba(33, 33, 33, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body p {
+    color: rgba(117, 117, 117, 1);
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+
+.logo {
+    color: rgba(0, 0, 0, 1);
+}
+.logo-web {
+    color: rgba(33, 150, 243, 1);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: rgba(33, 150, 243, 1);
+}
+.cont-link a {
+    color: rgba(117, 117, 117, 1);
+}
+.cont-link a:hover,
+.cont-link a:focus {
+    color: rgba(33, 150, 243, 1);
+}
+
+/* hero */
+
+.hero {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(47, 48, 58, 1);
+}
+
+/* teem */
+
+.teem {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.teem li {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+footer .logo {
+    color: rgba(255, 255, 255, 1);
+}
+footer address {
+    color: rgba(255, 255, 255, 1);
+}
+.footer-cont {
+    color: rgba(255, 255, 255, 0.6);
+}
