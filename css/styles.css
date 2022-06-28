@@ -33,6 +33,9 @@ ul {
 .site-nav a:focus {
     color: var(--accent-color);
 }
+.site-nav .current {
+    color: var(--accent-color);
+}
 .cont-link a {
     color: var(--p-text-color);
 }
