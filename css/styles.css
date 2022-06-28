@@ -3,6 +3,7 @@
     --p-text-color: rgba(117, 117, 117, 1);
     --accent-color: rgba(33, 150, 243, 1);
     --background-color: rgba(255, 255, 255, 1);
+    --wight-text: rgba(255, 255, 255, 1);
     --background-dark-gray: rgba(47, 48, 58, 1);
     --background-light-gray: rgba(245, 244, 250, 1);
 }
@@ -43,8 +44,14 @@ ul {
 /* hero */
 
 .hero {
-    color: rgba(255, 255, 255, 1);
+    color: var(--wight-text);
     background-color: var(--background-dark-gray);
+}
+
+/* button */
+.button {
+    color: var(--wight-text);
+    background-color: var(--accent-color);
 }
 
 /* teem */
@@ -63,10 +70,10 @@ footer {
     background-color: var(--background-dark-gray);
 }
 footer .logo {
-    color: rgba(255, 255, 255, 1);
+    color: var(--wight-text);
 }
 footer address {
-    color: rgba(255, 255, 255, 1);
+    color: var(--wight-text);
 }
 .footer-cont {
     color: rgba(255, 255, 255, 0.6);
