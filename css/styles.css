@@ -6,6 +6,7 @@
     --wight-text: rgba(255, 255, 255, 1);
     --background-dark-gray: rgba(47, 48, 58, 1);
     --background-light-gray: rgba(245, 244, 250, 1);
+    --background-button-filter: rgba(245, 244, 250, 1);
 }
 
 body {
@@ -81,3 +82,15 @@ footer address {
 .footer-cont {
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* button portfolio */
+
+.button-filter {
+    color: var(--h-text-color);
+    background-color: var(--background-button-filter);
+ }
+ .button-filter:hover,
+ .button-filter:focus {
+    color: var(--wight-text);
+    background-color: var(--accent-color);
+ }
